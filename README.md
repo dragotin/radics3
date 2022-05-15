@@ -23,5 +23,6 @@ type = radics3
 revagateway = localhost:9142
 ```
 In the configuration group `[auth]`, the type is set to the authentication type `radics3`, which enables the plugin. The second line `revagateway` specifies the Reva gateway that is called for authentication via grpc.
+
 3. Start Radicale and check that the auth plugin is really used.
 4. Open the Radicale web interface at <radicalehost>:5232 and create address books or calendars.
