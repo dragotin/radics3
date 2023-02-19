@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radics3"
+authors = [
+    {name = "Klaas Freitag", email = "opensource@freisturz.de"},
+]
+description = "A CS3 authentication plugin for radicale"
+requires-python = ">=3.7"
+keywords = ["CS3", "Radicale"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    'importlib-metadata; python_version<"3.8"',
+    'grpcio',
+    'cs3apis',
+]
+dynamic = ["version"]
