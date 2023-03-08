@@ -7,7 +7,7 @@ With that, users should be able to start the Radicale Server alongside with Infi
 
 ## Build
 
-Change into the radics3 directory (where also `setup.py` is) and call:
+Change into the radics3 directory (where also `pyproject.toml` is) and call:
 
 ```bash
 python3 -m pip install .
